@@ -1,0 +1,18 @@
+node_modules/
+.env
+.env.*
+!.env.example
+sessions/
+data/
+*.log
+npm-debug.log*
+.DS_Store
+
+# Private runtime and credentials
+.env
+private/
+sessions/
+data/
+*.db
+plugins/bin/cookies.txt
+plugins/bin/*cookies*
